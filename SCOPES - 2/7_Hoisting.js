@@ -1,10 +1,8 @@
 fun(); // hoisting
 
 function fun() {
-    console.log("Rajansingh");
+  console.log("Rajansingh");
 }
-
-
 
 // why is not working is here
 
@@ -24,6 +22,7 @@ var a = 20;
 var b = 30;
 
 function fun1(a, b) {
-    console.log(a, b);
+  console.log(a, b);
 }
 
+// Hoisting is a direct consequence of lexical parsing that happens in js, due to which we are able to access some function & variable before declaring them.which gives a notion that they are moved up in a file.
